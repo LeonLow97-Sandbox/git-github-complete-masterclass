@@ -76,13 +76,15 @@ vi filename.txt
 - `release` branch: for documentation and bug fixes. temporary supporting branch.
 - `feature` branch: created so that development and production branch remains undisturbed. merges back to development branch once feature is completed.
 
-|         Git Branching         |                  Description                  |
-| :---------------------------: | :-------------------------------------------: |
-|         `git branch`          |             To check the branches             |
-|        `git branch -a`        | List all branches including local and remote. |
-|  `git branch <branch_name>`   |            To create a new branch             |
-| `git checkout <branch_name>`  |         To set to this current branch         |
-| `git branch <branch_name> -d` |            To delete a git branch             |
+|                    Git Branching                    |                        Description                        |
+| :-------------------------------------------------: | :-------------------------------------------------------: |
+|                    `git branch`                     |                   To check the branches                   |
+|                   `git branch -a`                   |       List all branches including local and remote.       |
+|             `git branch <branch_name>`              |                  To create a new branch                   |
+|            `git checkout <branch_name>`             |               To set to this current branch               |
+| `git branch -m <old_branch_name> <new_branch_name>` |                    Renaming a branch.                     |
+|            `git branch -d <branch_name>`            |                  To delete a git branch                   |
+|            `git branch -D <branch_name>`            | (CAREFUL) To delete a branch name that has been modified. |
 
 <h1 id="git commands">Git Commands</h1>
 
