@@ -1,0 +1,25 @@
+git init - Initialize local a new repository
+git status - shows what you have in your staging area
+git add <file> - adds files and folders to the staging area.
+git add .
+git commit -m "" - commit files in staging area to local repository
+git remote add origin https://
+git push - Takes a local repository and pushes to a remote repository (GitHub) 
+--> create a report on github, set a remote, add your github credentials.
+
+git pull - pull the latest changes from remote repository
+git clone - clone report from github
+
+create a new repo
+echo "# udemy-css-the-complete-guide" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LeonLow97-Sandbox/udemy-css-the-complete-guide.git
+git push -u origin main
+
+push an exiting repo from the command line
+git remote add origin https://github.com/LeonLow97-Sandbox/udemy-css-the-complete-guide.git
+git branch -M main
+git push -u origin main
